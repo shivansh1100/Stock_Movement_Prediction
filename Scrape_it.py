@@ -19,11 +19,11 @@ password = 'your_password'
 
 # Set up Reddit API connection
 reddit = praw.Reddit(
-    client_id='b2QgqWP2eHyK6nKu99EoAA',
-    client_secret='mq2a-gjuwahia1Ij6dvSiYALM9aSqg',
-    user_agent='python:Virtual_Therapist:v1.0 (by /u/hecker1100)',
-    username='hecker1100',
-    password='amigo123@@@')
+    client_id='id',
+    client_secret='sec',
+    user_agent='api',
+    username='id',
+    password='pass')
 
 def search_subreddits(query):
     # Searching subreddits based on the input query
